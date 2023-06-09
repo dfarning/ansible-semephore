@@ -1,0 +1,17 @@
+[docker_hosts]
+docker-prod.lan.arpa
+docker-dev.lan.arpa
+
+[home_assistant]
+homeassistant.lan.arpa
+
+[testing]
+192.168.10.100    ansible_user=dave   ansible_become_password=denmark88
+192.168.10.101    ansible_user=dave   ansible_become_password=denmark88
+192.168.10.102    ansible_user=dave   ansible_become_password=denmark88
+
+[pvehosts]
+pve1.lan.arpa
+pve1.lan.arpa
+pve3.lan.arpa
+pbs.lab.arpa
